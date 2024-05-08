@@ -13,7 +13,6 @@ void main(){
 }
 
 class ThemeHelper {
-  void changeTheme(String s) {}
 }
 
 class MyApp extends StatelessWidget{
