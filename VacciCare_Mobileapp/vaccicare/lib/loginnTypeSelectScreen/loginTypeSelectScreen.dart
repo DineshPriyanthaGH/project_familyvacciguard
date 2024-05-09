@@ -85,4 +85,48 @@ class LoginTypeSelectScreen extends StatelessWidget {
       ),
     );
   }
+ /// Common widget
+  Widget _buildFamilyuser(
+    BuildContext context, {
+    required String gridOne,
+    required String familyuser,
+    Function? onTapColumngridone,
+  }) {
+    return Column(
+      children: [
+        GestureDetector(
+          onTap: () {
+            onTapColumngridone?.call();
+          },
+          child: Container(
+            padding: EdgeInsets.symmetric(
+              horizontal: 62.h,
+              vertical: 18.v,
+            ),
+            decoration: AppDecoration.fillPrimary.copyWith(
+              borderRadius: BorderRadiusStyle.roundedBorder10,
+            ),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                CustomImageView(
+                  imagePath: gridOne,
+                  height: 65.v,
+                  width: 70.h,
+                ),
+                SizedBox(height: 22.v),
+                Text(
+                  familyuser,
+                  style: theme.textTheme.titleMedium!.copyWith(
+                    color: theme.colorScheme.errorContainer.withOpacity(1),
+                  ),
+                )
+              ],
+            ),
+          ),
+        )
+      ],
+    );
+  }
 
+  onTapColumnsettings(BuildContext context) {}
