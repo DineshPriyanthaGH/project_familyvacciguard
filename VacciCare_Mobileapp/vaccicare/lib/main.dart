@@ -55,8 +55,8 @@ class WelcomeScreen extends StatelessWidget {
         extendBodyBehindAppBar: true,
         backgroundColor: theme.colorScheme.onPrimaryContainer.withOpacity(1),
         body: Container(
-          // Your container code
-        ),
+            // Your container code
+            ),
       ),
     );
   }
