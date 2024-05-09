@@ -7,7 +7,7 @@ class LoginTypeSelectScreen extends StatelessWidget {
           key: key,
         );
 
-         @override
+  @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
@@ -85,7 +85,8 @@ class LoginTypeSelectScreen extends StatelessWidget {
       ),
     );
   }
- /// Common widget
+
+  /// Common widget
   Widget _buildFamilyuser(
     BuildContext context, {
     required String gridOne,
@@ -130,3 +131,9 @@ class LoginTypeSelectScreen extends StatelessWidget {
   }
 
   onTapColumnsettings(BuildContext context) {}
+
+  /// Navigates to the onboarding11Screen when the action is triggered.
+  onTapColumngridone(BuildContext context) {
+    Navigator.pushNamed(context, AppRoutes.onboarding11Screen);
+  }
+}
