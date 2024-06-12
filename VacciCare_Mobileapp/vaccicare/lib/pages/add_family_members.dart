@@ -70,3 +70,24 @@ Container(
                       border: Border.all(color: Color(0x4017C2EC)),
                       borderRadius: BorderRadius.circular(7),
                     ),
+                                        child: Container(
+                      padding: EdgeInsets.fromLTRB(6, 5, 6, 5),
+                      child: Stack(
+                        clipBehavior: Clip.none,
+                        children: [
+                          SizedBox(
+                            width: 18,
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Container(
+                                  margin: EdgeInsets.fromLTRB(0, 0, 0, 4),
+                                  child: SizedBox(
+                                    width: 18,
+                                    height: 15,
+                                    child: SvgPicture.asset(
+                                      'assets/vectors/vector_109_x2.svg',
+                                    ),
+                                  ),
+                                ),
