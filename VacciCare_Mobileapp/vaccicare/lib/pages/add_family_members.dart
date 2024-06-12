@@ -51,3 +51,15 @@ child: Container(
                       ),
                     ),
                   ),
+                                      Container(
+                    margin: EdgeInsets.fromLTRB(0, 11, 0, 1),
+                    child: Text(
+                      'Add Family Members',
+                      style: GoogleFonts.getFont(
+                        'Montserrat',
+                        fontWeight: FontWeight.w700,
+                        fontSize: 16,
+                        color: Color(0xFF000000),
+                      ),
+                    ),
+                  ),
