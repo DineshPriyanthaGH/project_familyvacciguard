@@ -5,9 +5,6 @@ VacciCare is a mobile application designed to streamline the management of vacci
 
 ## Table of Contents
 - [Features](#features)
-- [Installation](#installation)
-  - [Prerequisites](#prerequisites)
-  - [Steps](#steps)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Contributors](#contributors)
