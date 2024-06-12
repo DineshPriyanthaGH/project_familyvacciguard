@@ -17,18 +17,6 @@ VacciCare is a mobile application designed to streamline the management of vacci
 - **Educational Resources**: Provides information on vaccines and health.
 - **Pet Vaccination Management**: Dedicated module for managing pet vaccinations.
 
-## Installation
-### Prerequisites
-- Flutter SDK
-- Dart
-- MySQL
-- Firebase account
-
-### Steps
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/vaccicare.git
-   cd vaccicare
 ## Usage
 - **Register/Login**: Create a new account or log in with existing credentials.
 - **Manage Vaccination Records**: Add new vaccination records, view upcoming vaccinations, and receive reminders.
