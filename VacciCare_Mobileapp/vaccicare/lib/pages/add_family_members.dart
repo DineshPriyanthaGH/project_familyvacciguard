@@ -63,3 +63,10 @@ child: Container(
                       ),
                     ),
                   ),
+Container(
+                    margin: EdgeInsets.fromLTRB(0, 0, 0, 2),
+                    width: 30,
+                    decoration: BoxDecoration(
+                      border: Border.all(color: Color(0x4017C2EC)),
+                      borderRadius: BorderRadius.circular(7),
+                    ),
