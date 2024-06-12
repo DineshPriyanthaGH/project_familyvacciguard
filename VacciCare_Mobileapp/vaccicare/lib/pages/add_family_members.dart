@@ -18,3 +18,36 @@ class AddFamilyMembers extends StatelessWidget {
           ),
         ),
       ),
+child: Container(
+        padding: EdgeInsets.fromLTRB(16, 26, 16, 27),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Container(
+              margin: EdgeInsets.fromLTRB(0, 0, 0, 26),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Container(
+                    margin: EdgeInsets.fromLTRB(0, 2, 0, 0),
+                    width: 30,
+                    height: 30,
+                    padding: EdgeInsets.fromLTRB(12, 9, 12, 9),
+                    decoration: BoxDecoration(
+                      border: Border.all(color: Color(0x4017C2EC)),
+                      borderRadius: BorderRadius.circular(7),
+                    ),
+                    child: Container(
+                      width: 6,
+                      height: 12,
+                      child: SizedBox(
+                        width: 6,
+                        height: 12,
+                        child: SvgPicture.asset(
+                          'assets/vectors/vector_241_x2.svg',
+                        ),
+                      ),
+                    ),
+                  ),
