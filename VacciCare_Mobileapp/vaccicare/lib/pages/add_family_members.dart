@@ -91,3 +91,24 @@ Container(
                                     ),
                                   ),
                                 ),
+Container(
+                                  margin: EdgeInsets.fromLTRB(7.3, 0, 7.3, 0),
+                                  child: SizedBox(
+                                    width: 3.5,
+                                    height: 1,
+                                    child: SvgPicture.asset(
+                                      'assets/vectors/vector_195_x2.svg',
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Positioned(
+                            right: 0,
+                            top: -2,
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: Color(0xFFE0E0E0),
+                                borderRadius: BorderRadius.circular(3.5),
+                              ),
