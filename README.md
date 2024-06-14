@@ -42,4 +42,3 @@ VacciCare is a mobile application designed to streamline the management of vacci
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Feel free to paste this into your README.md file on GitHub, and it should display the project information nicely. Let me know if you need further assistance!
